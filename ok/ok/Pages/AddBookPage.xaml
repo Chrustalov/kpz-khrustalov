@@ -1,0 +1,55 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ok.Views.AddBookPage"
+             xmlns:models="clr-namespace:ok.Models"
+             xmlns:local="clr-namespace:ok.ViewModels"
+             xmlns:views="clr-namespace:ok.Views"
+             Title="New book">
+  <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10" Padding="15" MaximumWidthRequest="1400">
+        <VerticalStackLayout IsVisible="false">
+            <Label Text="ID" FontSize="Medium" IsEnabled="False" />
+            <Entry Text="{Binding Book.Id, Mode=TwoWay}" FontSize="Medium" IsEnabled="False" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+            <Label Text="Title" FontSize="Medium" Margin="0,5,0,0" />
+            <Entry Text="{Binding Book.Title, Mode=TwoWay}" FontSize="Medium" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+            <Label Text="Description" FontSize="Medium" Margin="0,5,0,0" />
+            <Editor Text="{Binding Book.Description, Mode=TwoWay}" 
+                    FontSize="Medium" 
+                    HeightRequest="120" 
+                    Placeholder="Enter the book description here"
+                    AutoSize="TextChanges" 
+                    Margin="0,0,0,10" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+            <Label Text="Count of Pages" FontSize="Medium" Margin="0,5,0,0" />
+            <Entry Text="{Binding Book.CountOfPages, Mode=TwoWay}" FontSize="Medium" Keyboard="Numeric" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+            <Label Text="Format" FontSize="Medium" Margin="0,5,0,0" />
+            <Entry Text="{Binding Book.Format, Mode=TwoWay}" FontSize="Medium" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+            <Label Text="Language" FontSize="Medium" Margin="0,5,0,0" />
+            <Entry Text="{Binding Book.Language, Mode=TwoWay}" FontSize="Medium" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+            <Label Text="Date" FontSize="Medium" Margin="0,5,0,0" />
+            <DatePicker Date="{Binding Book.DateOfCreation, Mode=TwoWay}" FontSize="Medium" />
+        </VerticalStackLayout>
+
+        <HorizontalStackLayout Spacing="20" Padding="10" HorizontalOptions="Center">
+            <Button Text="Submit" Command="{Binding OnSubmitCommand}" BackgroundColor="LightGreen" TextColor="White" />
+            <Button Text="Cancel" Command="{Binding OnCancelCommand}" BackgroundColor="LightCoral" TextColor="White" />
+        </HorizontalStackLayout>
+        <views:BooksCountControl x:Name="BooksCounter" />
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/bogdanhrustalov_1/Documents/term_5/kpz/ok/ok/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Entitlements.xcent /Users/bogdanhrustalov_1/Documents/term_5/kpz/ok/ok/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/ok.app

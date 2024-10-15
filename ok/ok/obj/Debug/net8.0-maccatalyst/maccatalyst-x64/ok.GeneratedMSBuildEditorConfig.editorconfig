@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ok
+build_property.ProjectDir = /Users/bogdanhrustalov_1/Documents/term_5/kpz/ok/ok/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/bogdanhrustalov_1/Documents/term_5/kpz/ok/ok/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ok.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/bogdanhrustalov_1/Documents/term_5/kpz/ok/ok/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ok.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/bogdanhrustalov_1/Documents/term_5/kpz/ok/ok/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ok.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/bogdanhrustalov_1/Documents/term_5/kpz/ok/ok/Pages/AddBookPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ok.Pages.AddBookPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/AddBookPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/AddBookPage.xaml
+
+[/Users/bogdanhrustalov_1/Documents/term_5/kpz/ok/ok/Pages/BookPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ok.Pages.BookPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/BookPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/BookPage.xaml
+
+[/Users/bogdanhrustalov_1/Documents/term_5/kpz/ok/ok/Pages/BooksCountControl.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ok.Pages.BooksCountControl.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/BooksCountControl.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/BooksCountControl.xaml
+
+[/Users/bogdanhrustalov_1/Documents/term_5/kpz/ok/ok/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ok.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/bogdanhrustalov_1/Documents/term_5/kpz/ok/ok/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ok.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
